@@ -8,7 +8,7 @@ import { CurrentWeather } from "../components/current-weather";
 import { HourlyTemperature } from "../components/hourly-temperature";
 import { WeatherDetails } from "../components/weather-details";
 import { WeatherForecast } from "../components/weather-forecast";
-import { FavoriteCities } from "@/components/ui/favorite-cities";
+import { FavoriteCities } from "@/components/favorite-cities";
 
 const WeatherDashboard = () => {
   const { coordinates, error: locationError, getLocation, isLoading: locationLoading } = useGeolocation();

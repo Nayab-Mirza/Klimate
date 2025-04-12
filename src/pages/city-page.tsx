@@ -7,7 +7,7 @@ import { HourlyTemperature } from "@/components/hourly-temperature";
 import { WeatherDetails } from "../components/weather-details";
 import { WeatherForecast } from "../components/weather-forecast";
 import WeatherSkeleton from "../components/loading-skeleton";
-import { FavoriteButton } from "@/components/ui/favorite-button";
+import { FavoriteButton } from "@/components/favorite-button";
 
 export function CityPage() {
   const [searchParams] = useSearchParams();
