@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react'
+import type { PropsWithChildren } from 'react'
 import Header from './header'
 
 const Layout = ({ children }: PropsWithChildren) => {
